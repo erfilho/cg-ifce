@@ -80,6 +80,24 @@ tPolygon tgTranslate(tPolygon poligon, int tX, int tY){
     return t_Poligon;
 }
 
+tPolygon tgScale(tPolygon poligon, int tX, int tY){
+    tPolygon t_Poligon = poligon;
+
+    t_Poligon.pointA.x *= tX;
+    t_Poligon.pointA.y *= tY;
+
+    t_Poligon.pointB.x *= tX;
+    t_Poligon.pointB.y *= tY;
+    
+    t_Poligon.pointC.x *= tX;
+    t_Poligon.pointC.y *= tY;
+    
+    t_Poligon.pointD.x *= tX;
+    t_Poligon.pointD.y *= tY;
+
+    return t_Poligon;
+}
+
 void polCoordinates(tPolygon poligon){
     printf("A[%d, %d] B[%d, %d] \nC[%d, %d] D[%d, %d]\n", poligon.pointA.x, poligon.pointA.y, poligon.pointB.x, poligon.pointB.y, poligon.pointC.x, poligon.pointC.y, poligon.pointD.x, poligon.pointD.y);
 }

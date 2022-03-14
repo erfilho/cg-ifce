@@ -16,8 +16,14 @@ Exercício 5:
 
 ## Atualizações
 ### Dia 100322
-Implementação das structs e funções necessárias para a translação \
+Implementação das structs e funções necessárias para a translação 
 
-- [ ] Exibir coordenadas
-- [ ] Exibir o objeto
-- [ ] Matriz de translação
+- [x] Exibir coordenadas
+- [x] Exibir o objeto
+- [x] Matriz de translação
+
+### Dia 14032022
+Concluidas as funções para:
+- Exibir o objeto
+- Exibir coordenadas
+- Translar o objeto

@@ -20,18 +20,16 @@ int main(){
     // Exibindo o polígono no terminal
     polDraw(poligono);
 
-    // Gerando uma matriz de transformação controlada para o polígono
-    int tX = (rand() % 10) + 1;
-    int tY = (rand() % 10) + 1;
-    printf("\nMatriz de transformação de translação: [%d, %d]\n", tX, tY);
+    // Gerando uma matriz de transformação de escala controlada para o polígono, considerando a escala igual para o eixo x e y
+    int tX = (rand() % 3) + 2;
+    int tY = tX;
+    printf("\nMatriz de transformação de escala gerada: [%d, %d]\n", tX, tY);
 
     // Aplicando a matriz de transformação no polígono
-    poligono = tgTranslate(poligono, tX, tY);
-
+    poligono = tgScale(poligono, tX, tY);
     // Exibindo as coordenadas do polígono após a transformação
     printf("\nPolígono após a translação: \n");
     polCoordinates(poligono);
-
-    // Exibindo o polígono após a transformação
+    // Exibindo o polígono no terminal 
     polDraw(poligono);
 }
