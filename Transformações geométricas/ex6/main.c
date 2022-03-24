@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
+#include <math.h>
 #include "objetos.h"
 
 int main(){
@@ -20,16 +21,15 @@ int main(){
     // Exibindo o polígono no terminal
     polDraw(poligono);
 
-    // Gerando uma matriz de transformação de escala controlada para o polígono, considerando a escala igual para o eixo x e y
-    int tX = (rand() % 3) + 2;
-    int tY = tX;
-    printf("\nMatriz de transformação de escala gerada: [%d, %d]\n", tX, tY);
+    // Gerando o ângulo para a rotação
+    int deg = degFactory();
+    printf("\nÂngulo gerado para a rotação: [%.d]\n", deg);
 
-    // Aplicando a matriz de transformação no polígono
-    poligono = tgScale(poligono, tX, tY);
+    // Aplicando a matriz de retoração no polígono
+    poligono = tgRotate(poligono, deg);
+
     // Exibindo as coordenadas do polígono após a transformação
-    printf("\nPolígono após a escala: \n");
+    printf("\nPolígono após a rotação: \n");
     polCoordinates(poligono);
-    // Exibindo o polígono no terminal 
     polDraw(poligono);
 }

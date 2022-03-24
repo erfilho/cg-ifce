@@ -27,3 +27,6 @@ Concluidas as funções para:
 - Exibir o objeto
 - Exibir coordenadas
 - Translar o objeto
+
+Exercício 6: \
+ Usando o programa que você codificou anteriormente, aplique a T.G de rotação (em 2D) em todos os pontos do objeto impresso no console. Mostre prints da execução do seu código demonstrando a figura ( com as coordenadas ) antes e depois da rotação. Obs: Use um ângulo de rotação aleatório.
