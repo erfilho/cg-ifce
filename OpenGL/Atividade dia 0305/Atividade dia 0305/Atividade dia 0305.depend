@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1584205422 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\atividade dia 0305\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1651495153 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1\ex1.c
+	<stdio.h>
+	<GL/glut.h>
+	"objects.h"
+
+1651494620 d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1\objects.h
+
+1651495198 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1\objects.c
+	"objects.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
