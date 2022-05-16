@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1652308761 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\ex-opengl3d\opengl3d1605 - c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
+1650983400 d:\programas\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1650983400 d:\programas\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+

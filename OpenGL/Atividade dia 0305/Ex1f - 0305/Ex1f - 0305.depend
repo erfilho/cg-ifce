@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1651845838 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1f - 0305\main.c
+	<stdio.h>
+	<GL/glut.h>
+	"objects.h"
+
+1650983400 d:\programas\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1650983400 d:\programas\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1651845543 d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1f - 0305\objects.h
+
+1651845570 source:d:\user_archives\documents\ifce\2022\2022.1\computação gráfica\code\opengl\atividade dia 0305\ex1f - 0305\objects.c
+	"objects.h"
+	<GL/glut.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
