@@ -1,0 +1,348 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 24 09:43:10 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+ 
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-cefc5572-170b-4897-b6f0-fa302bf79e74.sock
+# environment
+VSCODE_CWD = /home/erfilho
+# environment
+WINDOWPATH = 2
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/Atividade dia 2405
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/erfilho/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/Atividade dia 2405
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 8860
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/deathstar:@/tmp/.ICE-unix/2737,unix/deathstar:/tmp/.ICE-unix/2737
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"74ce6549a467d1dfaba55fb5394742c9.pt-br","_translationsConfigFile":"/home/erfilho/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/tcf.json","_cacheRoot":"/home/erfilho/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br","_resolvedLanguagePackCoreLocation":"/home/erfilho/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/erfilho/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = IkBI4lgiFr_yCU5fVCohR4iEeitLodjssIVSYL68HrDdjI13kbxY
+# environment
+PATH = /home/erfilho/.local/bin:/home/erfilho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/erfilho/.dotnet/tools:/home/erfilho/.dotnet/tools
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = pt_BR:pt:en
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/erfilho/snap/code/common
+# environment
+SNAP = /snap/code/97
+# environment
+INVOCATION_ID = 68d7bcb8c12045b69924cecd8b25583c
+# environment
+SNAP_REVISION = 97
+# environment
+SNAP_REAL_HOME = /home/erfilho
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = erfilho
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = erfilho
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2759
+# environment
+DISPLAY = :1
+# environment
+USER = erfilho
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+SNAP_CONTEXT = IkBI4lgiFr_yCU5fVCohR4iEeitLodjssIVSYL68HrDdjI13kbxY
+# environment
+MANAGERPID = 2293
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8774
+# environment
+_ = /snap/code/97/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/erfilho/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:38281
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/erfilho
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-88061317-1.67.2-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = c3511e6c
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+SNAP_USER_DATA = /home/erfilho/snap/code/97
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=4/154=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2066, inode 127513): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 2):
+	gcc -c main-f.c -o main.o -lglut -lGL -lGLU -lm
+	gcc -o main.exe main.o -lglut -lGL -lGLU -lm
+	rm *.o
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 7):
+	./main.exe
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-05-24 09:43:09.103252
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 157 B / avg = 8 B
+# current buf: size = 8162 B / used = 157 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 26 / hit rate = 30%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/26=0%
+# Finished Make data base on Tue May 24 09:43:10 2022
+
+ 

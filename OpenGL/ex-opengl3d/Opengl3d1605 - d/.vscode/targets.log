@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 16 10:02:18 2022
+# Make data base, printed on Tue May 17 19:20:05 2022
 
 # Variables
 
@@ -21,9 +21,9 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b5256a34-f3b5-4daa-8ae6-25d6645a91de.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2e570f33-dbe4-4ad0-b2ff-dbe1c512475a.sock
 # environment
-VSCODE_CWD = /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/ex-opengl3d/Opengl3d1605 - d
+VSCODE_CWD = /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Construção e Análise de Algoritmos/Trabalho computacional 02 - CANA
 # environment
 WINDOWPATH = 2
 # default
@@ -41,13 +41,11 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/erfilho/Documentos/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/ex-opengl3d/Opengl3d1605 - d
+PWD = /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/ex-opengl3d/Opengl3d1605 - d
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/erfilho/Documentos/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/ex-opengl3d
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -65,17 +63,17 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.220
+GNOME_TERMINAL_SERVICE = :1.115
 # makefile
 MAKEFLAGS = pqrR
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=3685b33533f9881602b24380628241d6
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=4f671ee19b0f8522fae289d162841a17
 # makefile
 CURDIR := /mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/ex-opengl3d/Opengl3d1605 - d
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
@@ -101,19 +99,19 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9689
+VSCODE_PID = 5173
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/deathstar:@/tmp/.ICE-unix/2219,unix/deathstar:/tmp/.ICE-unix/2219
+SESSION_MANAGER = local/deathstar:@/tmp/.ICE-unix/2170,unix/deathstar:/tmp/.ICE-unix/2170
 # automatic
 *F = $(notdir $*)
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=3685b33533f9881602b24380628241d6
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=4f671ee19b0f8522fae289d162841a17
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -131,7 +129,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/0a5b6a6b_b57d_4fe1_a1ec_c210e2885f87
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3fd0398e_800b_442a_9e72_b521c4dadd65
 # environment
 MAKELEVEL := 0
 # default
@@ -139,7 +137,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = IkBI4lgiFr_yCU5fVCohR4iEeitLodjssIVSYL68HrDdjI13kbxY
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/erfilho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -181,7 +179,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2219
+SYSTEMD_EXEC_PID = 2170
 # environment
 DISPLAY = :1
 # environment
@@ -251,7 +249,7 @@ GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=120/1024=12%, Rehash=0, Collisions=12/153=8%
+# Load=119/1024=12%, Rehash=0, Collisions=12/152=8%
 
 # Pattern-specific Variable Values
 
@@ -259,9 +257,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2066, inode 129185): 5 files, no impossibilities.
+# . (device 2066, inode 129185): 6 files, no impossibilities.
 
-# 5 files, no impossibilities in 1 directories.
+# 6 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,6 +290,7 @@ all:
 # + := 
 # automatic
 # % := 
+ 
 # automatic
 # ^ := 
 # automatic
@@ -301,11 +300,10 @@ all:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'makefile', line 2):
-	gcc -c main.c -o ex1e.o -lglut -lGL -lGLU -lm
-	gcc -o main.exe ex1e.o -lglut -lGL -lGLU -lm
+	gcc -c main.c -o main.o -lglut -lGL -lGLU -lm
+	gcc -o main.exe main.o -lglut -lGL -lGLU -lm
 	rm *.o
 
- 
 run:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -316,7 +314,7 @@ run:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-16 09:44:15.5420353
+#  Last modified 2022-05-16 10:25:44.0056517
 #  File has been updated.
 #  Successfully updated.
 
@@ -334,12 +332,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 11 / storage = 88 B / avg = 8 B
-# current buf: size = 8162 B / used = 88 B / count = 11 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 12 / storage = 97 B / avg = 8 B
+# current buf: size = 8162 B / used = 97 B / count = 12 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 42%
+# strcache performance: lookups = 20 / hit rate = 40%
 # hash-table stats:
-# Load=11/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Mon May 16 10:02:18 2022
+# Load=12/8192=0%, Rehash=0, Collisions=0/20=0%
+# Finished Make data base on Tue May 17 19:20:05 2022
 
  

@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/Atividade dia 2405'
+gcc -c main-f.c -o main.o -lglut -lGL -lGLU -lm
+gcc -o main.exe main.o -lglut -lGL -lGLU -lm
+rm *.o
+make: Leaving directory '/mnt/sdb2/User_Archives/Documents/IFCE/2022/2022.1/Computação gráfica/Code/OpenGL/Atividade dia 2405'
+ 
